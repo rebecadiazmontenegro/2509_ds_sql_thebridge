@@ -68,7 +68,6 @@ FROM person
 WHERE name IN ("Joe Germuska", "Jeremy Bowers");
 
 /*Con el numero de licencia sacamos el numero de matricula*/
-
 SELECT *
 FROM drivers_license
 WHERE id IN (173289, 423327);
